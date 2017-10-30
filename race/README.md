@@ -5,3 +5,4 @@ Races are generic bugs, independent of the goal of reproducible builds, but they
 Seen in the wild in:
 * [autogen](https://savannah.gnu.org/support/index.php?109234)
 * [intltool](https://bugs.launchpad.net/intltool/+bug/1687644)
+* [openSUSE/python-singlespec/setup.py](http://rb.zq1.de/compare.factory-20170428/python-bottle-compare.out) where we generate python2 and python3 packages in one build and if those were done within the same second, python's setup.py would think it is already done and skip the requested install - solved by using `setup.py --force install`

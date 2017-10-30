@@ -1,0 +1,22 @@
+According to POSIX specs, readdir can return entries in a directory
+in random order, though the specifics depend on the underlying filesystem.
+
+On Linux with ext4 it is pretty random.
+
+Observed in the wild:
+Python:
+https://github.com/dahlia/libsass-python/pull/212/files
+https://github.com/mypaint/libmypaint/pull/108/files
+https://github.com/skyjake/Doomsday-Engine/pull/18/files
+https://github.com/kovidgoyal/html5-parser/pull/5/files
+https://github.com/dugsong/libdnet/pull/42/files
+https://github.com/carlos-jenkins/nested/pull/1/files
+
+C:
+https://sourceforge.net/p/blobwars/patches/8/
+
+Make (reproducible with glob-sort patch):
+https://github.com/dunst-project/dunst/pull/372/files
+
+shell/find:
+http://dpdk.org/dev/patchwork/patch/29949/

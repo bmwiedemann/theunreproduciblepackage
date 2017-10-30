@@ -1,0 +1,8 @@
+Some packages want to generate unique IDs
+to distinguish different outputs from each other
+
+The preferred fix is to use a hash of all the input instead.
+
+Observed in the wild:
+https://bugs.launchpad.net/qutim/+bug/1724148
+https://github.com/varnishcache/varnish-cache/pull/2436/files

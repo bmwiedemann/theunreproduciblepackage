@@ -5,5 +5,6 @@ common Roman letters which made it to most European languages, without
 diacritics.
 
 * `case` &mdash; a lowercase / uppercase conversion
+* `sort` &mdash; different order of the letters
 
 The solution, in most cases, should be to enforce `C.UTF-8` locale.

@@ -6,5 +6,6 @@ diacritics.
 
 * `case` &mdash; a lowercase / uppercase conversion
 * `sort` &mdash; different order of the letters
+* `wild` &mdash; some wildards have different meaning
 
 The solution, in most cases, should be to enforce `C.UTF-8` locale.

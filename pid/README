@@ -1,5 +1,6 @@
 Processes can ask the operating system for their own process ID (PID).
-This is often used in places where parallel processing requires unique temporary filenames to not accidentally overwrite the output of another process.
+This is often used in places where parallel processing requires unique temporary filenames to not accidentally overwrite the output of another process (see 'race').
 
 However sometimes the PID will end up in output files as happens when compiling .c files.
 Calling `strip` on the output can drop these file names and remove irreproducibility in that case.
+Or use deterministic ways to determine a unique filename.

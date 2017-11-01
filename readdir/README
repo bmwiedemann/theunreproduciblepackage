@@ -19,4 +19,8 @@ Make (reproducible with glob-sort patch):
 https://github.com/dunst-project/dunst/pull/372/files
 
 shell/find:
+https://github.com/crawl/crawl/pull/609/files
 http://dpdk.org/dev/patchwork/patch/29949/
+
+LISP:
+https://github.com/SawfishWM/librep/pull/12/files

@@ -1,3 +1,5 @@
+See also https://reproducible-builds.org/docs/stable-inputs/
+
 According to POSIX specs, readdir can return entries in a directory
 in random order, though the specifics depend on the underlying filesystem.
 
@@ -15,7 +17,7 @@ https://github.com/carlos-jenkins/nested/pull/1/files
 C:
 https://sourceforge.net/p/blobwars/patches/8/
 
-Make (reproducible with glob-sort patch):
+Make (reproducible with glob-sort patch at https://savannah.gnu.org/bugs/?52076):
 https://github.com/dunst-project/dunst/pull/372/files
 
 shell/find:

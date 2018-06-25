@@ -1,3 +1,5 @@
+See also https://reproducible-builds.org/docs/randomness/
+
 Some packages want to generate unique IDs
 to distinguish different outputs from each other
 

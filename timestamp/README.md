@@ -1,3 +1,5 @@
+See also https://reproducible-builds.org/docs/timestamps/
+
 There are multiple valid approaches to fixing timestamps
 that end up in build results
 

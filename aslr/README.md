@@ -1,3 +1,5 @@
+See also https://reproducible-builds.org/docs/value-initialization/
+
 [ASLR](https://en.wikipedia.org/wiki/Address_space_layout_randomization)
 is controlled under Linux via `/proc/sys/kernel/randomize_va_space`
 It will randomize memory addresses and thus pointers

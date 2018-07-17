@@ -7,7 +7,7 @@ If a build process depends on output from such a randomized hash, it can be non-
 One possible solution is to do in the build environment
 
 ```bash
-export QT_HASH_SEED=42
+export QT_HASH_SEED=0
 export PERL_HASH_SEED=42
 export PYTHONHASHSEED=0
 ```

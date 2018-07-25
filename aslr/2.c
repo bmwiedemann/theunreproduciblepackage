@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main()
 {
   int x;
   printf("%p\n", &x);

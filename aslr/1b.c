@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main()
 {
   int buffer[20];
   int sum;

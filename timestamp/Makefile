@@ -1,3 +1,4 @@
+CFLAGS=-Wall
 all: run
 
 run: genversion

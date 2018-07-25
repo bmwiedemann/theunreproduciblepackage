@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <time.h>
 
-main()
+int main()
 {
   const time_t now = time(NULL);
   printf("BUILD_DATE=\"%s\"\n", ctime(&now));

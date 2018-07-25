@@ -8,7 +8,7 @@ typedef struct {
   // but padding bytes are uninitialized and get random values from ASLR
 } unalignedstruct;
 
-main()
+int main()
 {
   unalignedstruct x;
   x.data1=1;

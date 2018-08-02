@@ -1,6 +1,6 @@
 #!/bin/sh
 
-function racepart
+racepart()
 {
     input=$1
     echo $input > tmpfile

@@ -6,7 +6,7 @@ There are several ways, a filesystem can be used to introduce indeterminism:
 
 3. using `st_ino` or `st_dev` fields from [`stat(2)`](http://man7.org/linux/man-pages/man2/stat.2.html)
 
-4. storing `st_size` for directories or `st_blksize` for any file, because it is filesystem-dependent. E.g. creating a million files and removing them again, will cause a directory to be large on ext4
+4. storing `st_size` for directories or using `st_blocks` or `st_blksize` for any file, because it is filesystem-dependent. E.g. creating a million files and removing them again, will cause a directory to be large on ext4
 
 
 ## Seen in the wild:

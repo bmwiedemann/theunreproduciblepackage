@@ -9,7 +9,7 @@ ASLR can also be disabled per process using `setarch $(arch) -R make`
 
 But the proper fix for cases like `1.c` is to use `memset` or `bzero`.
 
-##Seen in the wild:
+## Seen in the wild:
 * case 1 (uninitialized padding memory):
   * [LiE](https://github.com/davidsd/lie/pull/1/files)
   * [gcin](https://build.opensuse.org/request/show/520868)

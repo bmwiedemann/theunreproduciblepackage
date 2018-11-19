@@ -17,5 +17,6 @@ Seen in the wild:
 * gcc
 * python `make profile-opt`
 * [openSUSE/bash](https://build.opensuse.org/request/show/498339)
+* [openSUSE/grep](https://build.opensuse.org/request/show/647618)
 * [openSUSE/gzip](https://build.opensuse.org/request/show/499887)
 * [openSUSE/libsamplerate](https://build.opensuse.org/request/show/562897)

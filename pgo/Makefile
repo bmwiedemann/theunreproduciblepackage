@@ -9,7 +9,7 @@ run:
 	cp -a pgo ../out/
 
 profile:
-	mkpasswd $$RANDOM | ./pgo || :
+	bash -c 'echo $$RANDOM' | ./pgo || :
 
 build: pgo
 clean:

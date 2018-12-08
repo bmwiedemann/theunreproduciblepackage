@@ -14,3 +14,9 @@ profile:
 build: pgo
 clean:
 	rm -f pgo
+
+runmany:
+	for i in $$(seq 100) ; do \
+	    make run >/dev/null 2>&1 ;\
+	    md5sum pgo ;\
+	done | sort | uniq -c

@@ -2,7 +2,7 @@ See also https://reproducible-builds.org/docs/stable-outputs/
 
 Many interpreted languages offer randomized hash tables (aka dict aka associative array) as a defense against DoS (see [oCERT-2011-003](http://www.ocert.org/advisories/ocert-2011-003.html) for more discussion).
 
-If a build process depends on output from such a randomized hash, it can be non-reproducible.
+If a build process depends on output from such a randomized hash, it can be nondeterministic.
 
 One possible solution is to do in the build environment
 

@@ -1,4 +1,4 @@
-There are several ways, a filesystem can be used to introduce indeterminism:
+There are several ways, a filesystem can be used to introduce nondeterminism:
 
 1. [readdir order](../readdir) is already covered in its own section
 

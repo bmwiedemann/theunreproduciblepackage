@@ -15,3 +15,12 @@ export PYTHONHASHSEED=0
 Which will tell perl, python and Qt's QHash to use a constant hash seed instead of a randomized one.
 
 Another correct approach when a build process depends on output from a hash is to sort the keys of the hash and explicitly output it in the order of the keys.
+
+Observed in the wild:
+
+* C++ [llvm](https://reviews.llvm.org/D50559)
+* C++ [gcc](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=90778)
+* go [rclone](https://github.com/rclone/rclone/pull/3289)
+* perl [HSAIL-Tools](https://github.com/HSAFoundation/HSAIL-Tools/pull/51)
+* perl [yast-x11](https://github.com/yast/yast-x11/pull/18)
+* salt [bind-formula](https://github.com/saltstack-formulas/bind-formula/pull/110/commits/7f500766e0d9aec76522feb89e02bd1f3b0b7d42)

@@ -5,7 +5,7 @@ that end up in build results
 
 1) if it is not required, it might be possible to drop it completely, but be careful when discussing with upstream maintainers as some have strong opinions here.
 
-2) if it is meant to show the date, age or version of the software, such as with the date on top of a man-page, it is possible to use the modification time of the ChangeLog file instead: that remains constant for release tarballs and git snapshots, but can be easily updated for other cases (e.g. debug builds). There is no portable `stat(1)` syntax, but with GNU coreutils, `date -r ChangeLog` does the trick. 
+2) if it is meant to show the date, age or version of the software, such as with the date on top of a man-page, it is possible to use the modification time of the ChangeLog file instead: that remains constant for release tarballs and git snapshots, but can be easily updated for other cases (e.g. debug builds). There is no portable shell command syntax for this, but on some systems (at least FreeBSD and Linux), `date -r ChangeLog` does the trick. 
  
 Also for file format converters, using the modification time of the input file(s) can give a meaningful result, except if those inputs are also generated during a package build.
 

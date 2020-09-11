@@ -26,3 +26,6 @@ http://dpdk.org/dev/patchwork/patch/29949/
 
 LISP:
 https://github.com/SawfishWM/librep/pull/12/files
+
+Rust:
+https://github.com/rust-lang/git2-rs/pull/619

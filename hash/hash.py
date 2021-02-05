@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # works with python2 and python3
 
 myhash={}

@@ -18,7 +18,9 @@ Seen in the wild:
 * https://github.com/Gnucash/gnucash/pull/180/files shell mtime
 * https://gerrit.gromacs.org/#/c/6896/ cmake
 * https://github.com/votca/csg/pull/228/files cmake
+* https://github.com/magefile/mage/pull/474/files golang
 * https://github.com/marshmallow-code/marshmallow/pull/679/files python
 * https://debbugs.gnu.org/cgi/bugreport.cgi?bug=27773 perl
 * https://github.com/ruby/rdoc/pull/570/files ruby
+* https://github.com/AlephAlpha/build-time/pull/5/files rust
 * https://github.com/ellson/graphviz/pull/1253/files TCL

@@ -20,3 +20,4 @@ Seen in the wild:
 * [openSUSE/grep](https://build.opensuse.org/request/show/647618)
 * [openSUSE/gzip](https://build.opensuse.org/request/show/499887)
 * [openSUSE/libsamplerate](https://build.opensuse.org/request/show/562897)
+* [GNU hello](https://www.reddit.com/r/reproduciblebuilds/comments/tqrf9q/the_binary_that_varies_from_full_moon/)

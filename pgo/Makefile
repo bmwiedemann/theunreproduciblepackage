@@ -1,4 +1,4 @@
-all: run
+all: runmany
 
 run:
 	rm -f *.gcda
@@ -19,4 +19,4 @@ runmany:
 	for i in $$(seq 100) ; do \
 	    make run >/dev/null 2>&1 ;\
 	    md5sum pgo ;\
-	done | sort | uniq -c
+	done | sort | uniq -c > ../out/pgo-stats.txt

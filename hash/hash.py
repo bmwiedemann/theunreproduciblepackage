@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 # works with python2 and python3
+# note that python3.6 and later have order-preserving dicts, so these are much more deterministic than earlier versions
 
 myhash={}
 for i in range(1,10):

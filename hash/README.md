@@ -24,3 +24,4 @@ Observed in the wild:
 * perl [HSAIL-Tools](https://github.com/HSAFoundation/HSAIL-Tools/pull/51)
 * perl [yast-x11](https://github.com/yast/yast-x11/pull/18)
 * salt [bind-formula](https://github.com/saltstack-formulas/bind-formula/pull/110/commits/7f500766e0d9aec76522feb89e02bd1f3b0b7d42)
+* rust [tiny](https://github.com/osa1/tiny/issues/437)

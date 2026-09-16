@@ -13,8 +13,9 @@ Here is an [explanatory example with a C hashmap with random seed](https://githu
 
 Possible solutions:
 * use constant input in step 2 (see gzip and libsamplerate below)
+* use [dettrace](https://github.com/bmwiedemann/dettrace) to make the profiling run deterministic
 * remove .gcda files that differ across builds after step 2 (see bash below)
-* disable PGO completely, losing some optimization
+* disable PGO completely, losing some optimization - around 10% of performance
 
 Seen in the wild:
 * gcc

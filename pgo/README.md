@@ -8,6 +8,9 @@ With PGO, a build happens in several stages:
 
 This will create unreproducible binaries, unless all inputs in step 2 are constant.
 
+Here is an [explanatory example with a C hashmap with random seed](https://github.com/kpcyrd/pgo-hashmap-unreproducible)
+
+
 Possible solutions:
 * use constant input in step 2 (see gzip and libsamplerate below)
 * remove .gcda files that differ across builds after step 2 (see bash below)

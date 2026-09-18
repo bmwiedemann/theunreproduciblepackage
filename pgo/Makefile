@@ -1,4 +1,4 @@
-all: runmany
+all: run
 
 run:
 	rm -f *.gcda

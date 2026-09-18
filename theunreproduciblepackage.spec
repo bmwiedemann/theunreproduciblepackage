@@ -17,7 +17,7 @@
 
 
 Name:           theunreproduciblepackage
-Version:        1.0.1
+Version:        to-be-filled-by-_service
 Release:        0
 Summary:        Demonstrator for sources of non-determinism
 License:        MIT

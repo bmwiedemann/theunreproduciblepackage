@@ -15,7 +15,8 @@ Possible solutions:
 * use constant input in step 2 (see gzip and libsamplerate below)
 * use [dettrace](https://github.com/bmwiedemann/dettrace) to make the profiling run deterministic
 * remove .gcda files that differ across builds after step 2 (see bash below)
-* disable PGO completely, losing some optimization - around 10% of performance
+* store the profiles (note: they are arch dependent) after the instrumented runs
+* disable PGO completely, losing some optimization - around 10 to 30% of performance
 
 Seen in the wild:
 * gcc
@@ -25,3 +26,4 @@ Seen in the wild:
 * [openSUSE/gzip](https://build.opensuse.org/request/show/499887)
 * [openSUSE/libsamplerate](https://build.opensuse.org/request/show/562897)
 * [GNU hello](https://www.reddit.com/r/reproduciblebuilds/comments/tqrf9q/the_binary_that_varies_from_full_moon/)
+* [Debian/rust-coreutils](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1147372)
